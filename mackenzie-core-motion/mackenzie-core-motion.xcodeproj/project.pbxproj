@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					19F9783D1ED742CD005E0320 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = CVX58B2KAX;
+						DevelopmentTeam = 524D3B9S8F;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -261,7 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CVX58B2KAX;
+				DEVELOPMENT_TEAM = 524D3B9S8F;
 				INFOPLIST_FILE = "mackenzie-core-motion/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.br.faruolo.andre.mackenzie-core-motion";
@@ -274,7 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CVX58B2KAX;
+				DEVELOPMENT_TEAM = 524D3B9S8F;
 				INFOPLIST_FILE = "mackenzie-core-motion/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.br.faruolo.andre.mackenzie-core-motion";
@@ -302,6 +302,7 @@
 				19F978521ED742CD005E0320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
