@@ -44,7 +44,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                         print("vish, fudeu, tá dando erro no device motion")
                     } else {
                         if let _ = data {
-                            if self.degreesParser((data?.attitude.pitch)!) < 45.0 && self.inside{
+                            if self.degreesParser((data?.attitude.pitch)!) < 1.0 && self.inside{
                                 self.piscina = true
                                 self.localOutlet.text = "Piscina"
                             } else {
@@ -80,7 +80,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let eu = self.locationManager.location ?? CLLocation()
         let borges = CLLocation(latitude: CLLocationDegrees(-23.547097), longitude: CLLocationDegrees(-46.651875))
-        if eu.distance(from: borges) <= 10000 {
+        if eu.distance(from: borges) <= 100 {
             self.inside = true
         } else {
             self.inside = false
